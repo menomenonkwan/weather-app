@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="weatherapp.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+</head>
+<body>
+  <main>
+    <!-- WEATHER APP -->
+    <div class="weather-app">
+      <input type="text" autocomplete="off" class="search-box" placeholder="Enter a city" />
+      <section class="current-temp">
+        <div class="city">city, country</div>
+        <div class="current">
+          <div class="temp">-<span>°F</span></div>
+          <div class="feels-like"><span>-</span></div>
+          <div class="weather-icon"><img src="../icons/unknown.png" /></div>
+          <div class="weather-desc">-</div>
+          <div class="temp-range">- / - </div>
+        </div>
+      </section>
+    </div>
+
+    <section id="time-section"><div class="tint"></div>
+    <!-- DIGITAL CLOCK -->
+    <div class="watch">
+      <div class="date">Sunday September 20, 2020</div>
+      <div class="time">6:05:15 pm</div>
+    </div>
+
+    <!-- ANALOG CLOCK -->
+    <div class="clock">
+      <div class="clock-face">        
+
+        <div class="hour marker12">12</div>
+        <div class="hour marker1">1</div>
+        <div class="hour marker2">2</div>
+        <div class="hour marker3">3</div>
+        <div class="hour marker4">4</div>
+        <div class="hour marker5">5</div>
+        <div class="hour marker6">6</div>
+        <div class="hour marker7">7</div>
+        <div class="hour marker8">8</div>
+        <div class="hour marker9">9</div>
+        <div class="hour marker10">10</div>
+        <div class="hour marker11">11</div>
+
+        <div class="clock-center"></div>
+        <div class="clock-hand hour-hand"></div>
+        <div class="clock-hand minute-hand"></div>
+        <div class="clock-hand second-hand"></div>
+      </div>
+    </div>
+  </section>
+
+  </main>  
+  <script src="weatherapp.js"></script>
+  <script src="clock.js"></script>
+</body>
+</html>
