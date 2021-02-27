@@ -1,7 +1,7 @@
 // api - openweathermap.org
 const api = {
   key: "78defb4508e81c71d02c90d70d1319d4",
-  base: "http://api.openweathermap.org/data/2.5/"
+  base: "https://api.openweathermap.org/data/2.5/"
 }
 const searchBox = document.querySelector('.search-box');
 let city = document.querySelector('.current-temp .city');
